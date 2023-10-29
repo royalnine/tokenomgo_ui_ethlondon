@@ -9,23 +9,36 @@
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "start": "vite --open"
   },
   "dependencies": {
+    "@capacitor/android": "^5.5.1",
     "@capacitor/app": "5.0.6",
     "@capacitor/core": "5.5.1",
+    "@capacitor/geolocation": "^5.0.6",
     "@capacitor/haptics": "5.0.6",
     "@capacitor/keyboard": "5.0.6",
     "@capacitor/status-bar": "5.0.6",
     "@ionic/react": "^7.0.0",
     "@ionic/react-router": "^7.0.0",
+    "@noir-lang/backend_barretenberg": "^0.17.0",
+    "@noir-lang/noir_js": "^0.17.0",
+    "@noir-lang/noir_wasm": "^0.18.0",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "@wagmi/core": "^1.4.5",
+    "@walletconnect/web3wallet": "^1.9.3",
+    "axios": "^1.6.0",
+    "ethers": "^6.8.0",
+    "fs": "^0.0.1-security",
     "ionicons": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.3.4",
-    "react-router-dom": "^5.3.4"
+    "react-router-dom": "^5.3.4",
+    "view": "^1.1.1",
+    "wagmi": "^1.4.5"
   },
   "devDependencies": {
     "@capacitor/cli": "5.5.1",
@@ -40,8 +53,9 @@
     "eslint": "^8.35.0",
     "eslint-plugin-react": "^7.32.2",
     "jsdom": "^22.1.0",
+    "rollup-plugin-copy": "^3.5.0",
     "typescript": "^5.1.6",
-    "vite": "^4.3.9",
+    "vite": "^4.5.0",
     "vitest": "^0.32.2"
   },
   "description": "An Ionic project"

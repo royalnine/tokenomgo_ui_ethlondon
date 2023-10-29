@@ -17,8 +17,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 /.vscode/*
-!/.vscode/extensions.json
 .idea
 
 npm-debug.log*
@@ -27,3 +27,10 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+.android
+/artifacts
+/cache
+/android
+
+hardhat.config.js
+/cypress
